@@ -93,14 +93,6 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   background: rgb(122, 138, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(122, 138, 180, 1) 0%,
-    rgba(197, 223, 204, 1) 23%,
-    rgba(218, 222, 235, 1) 100%
-  );
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 hr {
