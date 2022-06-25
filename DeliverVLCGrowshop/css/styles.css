@@ -4016,43 +4016,44 @@ fieldset:disabled .btn {
   vertical-align: 0;
 }
 
-.dropdown-divider {
+/* .dropdown-divider {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
-}
+} */
 
-.dropdown-item {
+ .dropdown-item {
   display: block;
   width: 100%;
   padding: 0.25rem 1rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #8ef86a;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border: 0;
+  border: 0; 
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #1e2125;
-  background-color: #e9ecef;
+  color: #8ef86a;
+  background-color: rgb(0,151,0,)
 }
+.dropdown-item:hover,
 .dropdown-item.active,
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #0d6efd;
+  background-color:  #A6E874
 }
-.dropdown-item.disabled,
+/*.dropdown-item.disabled,
 .dropdown-item:disabled {
   color: #adb5bd;
   pointer-events: none;
   background-color: transparent;
-}
+}  */
 
 .dropdown-menu.show {
   display: block;
