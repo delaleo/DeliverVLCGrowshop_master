@@ -4731,7 +4731,7 @@ fieldset:disabled .btn {
   color: #1c9c1c;
 }
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, , 0.819);
+  color: rgb(4, 4, 5 0.55);
 }
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
