@@ -370,13 +370,10 @@ body {
   flex-direction: row-reverse;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
-  color: darkorange;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: darkorange;
 }
+
 .btn-outline-dark {
   color: darkorange;
 }
@@ -390,7 +387,6 @@ h1 {
   font-size: 2rem;
 }
 
-.navbar-light .navbar-text a:hover,
-.navbar-light .navbar-text a:focus {
-  color: greenyellow;
+.venta-responsable {
+  background-image: url(/DeliverVLCGrowshop/assets/img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg);
 }
