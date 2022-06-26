@@ -355,14 +355,15 @@ template {
 /* fin de normalize */
 
 body {
-  background: linear-gradient(
-    90deg,
-    rgb(64, 98, 56) 0%,
-    rgba(197, 223, 204, 1) 23%,
-    rgba(64, 98, 56, 1) 100%
+  background: rgb(244, 173, 4);
+  background: radial-gradient(
+    circle,
+    rgba(244, 173, 4, 1) 0%,
+    rgba(101, 128, 0, 1) 31%,
+    rgba(198, 236, 194, 1) 100%
   );
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav-item::after {
@@ -378,14 +379,26 @@ body {
 }
 .btn-outline-dark {
   color: darkorange;
-
 }
 
-.dropdown-menu{
-  background-color:transparent;
+.dropdown-menu {
+  background-color: transparent;
 }
 
 .dropdown-menu .dropdown-item {
-color: darkorange;
+  color: darkorange;
 }
 
+h1 {
+  color: darkorange;
+}
+
+.lead {
+  color: darkorange;
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-text a:hover,
+.navbar-light .navbar-text a:focus {
+  color: greenyellow;
+}
