@@ -358,9 +358,9 @@ body {
   background: rgb(244, 173, 4);
   background: radial-gradient(
     circle,
-    rgba(244, 173, 4, 1) 0%,
-    rgba(101, 128, 0, 1) 31%,
-    rgba(198, 236, 194, 1) 100%
+    rgb(251, 250, 248) 0%,
+    rgb(133, 134, 132) 31%,
+    rgba(2, 2, 2, 0.3) 100%
   );
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -393,6 +393,18 @@ h1 {
   background-image: url(/DeliverVLCGrowshop/assets/img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg);
 }
 .logo{
-  width: 250px;
-  height: 70px;
+ 
+ width: 100px;
+ height: 70px;
 }
+
+
+@font-face {
+  font-family:montserrat ;
+  src: url(/assets/Montserrat-SemiBoldItalic);
+}
+.fw-bolder{
+  font-family:Montserrat-SemiBoldItalic;
+}
+
+
