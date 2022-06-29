@@ -355,13 +355,15 @@ template {
 /* fin de normalize */
 
 body {
-  background: rgb(244, 173, 4);
-  background: radial-gradient(
+  /* background: rgb(244, 173, 4); */
+  /* background: radial-gradient(
     circle,
     rgb(251, 250, 248) 0%,
     rgb(133, 134, 132) 31%,
-    rgba(2, 2, 2, 0.3) 100%
-  );
+    rgb(2, 2, 2) 100% */
+
+    background: linear-gradient(to bottom, green, white 200%);
+  ;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -385,8 +387,12 @@ h1 {
 }
 
 .lead {
-  color: darkorange;
-  font-size: 2rem;
+  color: rgb(6, 6, 6);
+  font-size: 4rem;
+  font-weight: bolder;
+}
+#lead-menor{
+  font-size:medium ;
 }
 
 .venta-responsable {
