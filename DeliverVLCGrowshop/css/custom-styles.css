@@ -385,14 +385,22 @@ body {
 h1 {
   color: darkorange;
 }
+h5{
+  color: darkorange;
+}
 
 .lead {
   color: rgb(6, 6, 6);
   font-size: 4rem;
   font-weight: bolder;
-}
+  
+    -webkit-text-stroke: 0.5px rgb(45, 180, 8);
+    
+  }
+
 #lead-menor{
-  font-size:medium ;
+  font-size:larger;
+  -webkit-text-stroke: 0.2px rgb(255, 115, 0);
 }
 
 .venta-responsable {
