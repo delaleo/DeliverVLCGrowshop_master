@@ -355,15 +355,9 @@ template {
 /* fin de normalize */
 
 body {
-  /* background: rgb(244, 173, 4); */
-  /* background: radial-gradient(
-    circle,
-    rgb(251, 250, 248) 0%,
-    rgb(133, 134, 132) 31%,
-    rgb(2, 2, 2) 100% */
+  background: rgb(10, 10, 10);
 
-    /* background: linear-gradient(to bottom, green, white 200%); */
-  ;
+
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -425,12 +419,22 @@ h5{
 .container-forbanc{
 
   display: flex;
+  background-color: #f9faf9;
+ 
 }
 .formulario{
   margin:80px;
   width: 50%;
+  
 }
 .bancos{
   margin: 50px;
   width: 70%;
+}
+.button-send{
+  margin-top: 10px;
+  padding: 50px;
+}
+#button-send{
+  margin-top: 10px;
 }
