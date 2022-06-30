@@ -422,3 +422,15 @@ h5{
 }
 
 
+.container-forbanc{
+
+  display: flex;
+}
+.formulario{
+  margin:80px;
+  width: 50%;
+}
+.bancos{
+  margin: 50px;
+  width: 70%;
+}
