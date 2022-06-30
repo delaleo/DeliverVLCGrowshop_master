@@ -92,7 +92,7 @@ body {
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
-  background: rgb(122, 138, 180);
+  background: rgba(136, 136, 135, 0.21);
 }
 
 hr {
