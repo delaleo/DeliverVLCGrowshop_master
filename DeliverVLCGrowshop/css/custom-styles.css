@@ -400,13 +400,19 @@ h5{
 .venta-responsable {
   background-image: url(/DeliverVLCGrowshop/assets/img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg);
 }
+
+
+
+
+
+/* cambio de logo */
 .logo{
  
  width: 100px;
  height: 70px;
 }
 
-
+/* fuente montserrat */
 @font-face {
   font-family:montserrat ;
   src: url(/assets/Montserrat-SemiBoldItalic);
@@ -416,25 +422,68 @@ h5{
 }
 
 
-.container-forbanc{
 
+/* fade  */
+.fadeTop {
   display: flex;
-  background-color: #f9faf9;
- 
+  opacity: 0; 
+  transform: translate(0, 20vh);
+  transition: all 1s;
 }
-.formulario{
-  margin:80px;
-  width: 50%;
+.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
   
-}
-.bancos{
+/* fin fade */
+
+
+
+/* formulario */
+.form-bancos{
+  color: darkorange;
+  width: 600px;
+  height: 390px;
   margin: 50px;
-  width: 70%;
+  margin-left: 160px;
+  padding: 20px;
+  border-style:solid;
+  border-width: 2px;
+  border-color: darkgreen;
+  background-color: rgba(8, 8, 8, 0.522);
 }
+
+
+/* imagen bancos */
+.bancos{
+  background-color:transparent;
+  align-items: flex-start;
+
+}
+.img-bancos{
+  width: 600px;
+  margin: 50px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkgreen;
+}
+
+/* boton */
 .button-send{
   margin-top: 10px;
   padding: 50px;
 }
 #button-send{
   margin-top: 10px;
+  background-color: darkgreen;
+  border-color: darkorange;
+  
 }
+
+
+
+@media (max-width: 576px) {
+
+
+  }
