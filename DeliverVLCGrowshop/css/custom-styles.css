@@ -357,11 +357,28 @@ template {
 body {
   background: rgb(10, 10, 10);
 
-
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* barra verde con info */
+.navbar-green {
+  display: flex;
+  height: 1.5rem;
+  max-width: 100%;
+  background-color: forestgreen;
+  justify-content: space-between;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  list-style: none;
+}
+
+.nav-item-green {
+  color: white;
+  padding-left: 0.5rem;
+}
+
+/* barra de navegación */
 .nav-item::after {
   flex-direction: row-reverse;
 }
@@ -370,8 +387,18 @@ body {
   color: darkorange;
 }
 
+.navbar {
+  margin-top: 1.5rem;
+}
 
+.text-item {
+  display: flex;
+  color: white;
+}
 
+.text-item .d-flex {
+  margin: 30vh;
+} /*  boton carrito */
 .btn-outline-dark {
   color: darkorange;
 }
@@ -379,7 +406,7 @@ body {
 h1 {
   color: darkorange;
 }
-h5{
+h5 {
   color: darkorange;
 }
 
@@ -387,46 +414,34 @@ h5{
   color: rgb(6, 6, 6);
   font-size: 4rem;
   font-weight: bolder;
-  
-    -webkit-text-stroke: 0.5px rgb(45, 180, 8);
-    
-  }
 
-#lead-menor{
-  font-size:larger;
+  -webkit-text-stroke: 0.5px rgb(45, 180, 8);
+}
+
+#lead-menor {
+  font-size: larger;
   -webkit-text-stroke: 0.2px rgb(255, 115, 0);
 }
 
-.venta-responsable {
-  background-image: url(/DeliverVLCGrowshop/assets/img/shopping_cart_FILL0_wght400_GRAD0_opsz48.svg);
-}
-
-
-
-
-
 /* cambio de logo */
-.logo{
- 
- width: 100px;
- height: 70px;
+.logo {
+  width: 140px;
+  height: 100px;
 }
 
 /* fuente montserrat */
 @font-face {
-  font-family:montserrat ;
+  font-family: montserrat;
   src: url(/assets/Montserrat-SemiBoldItalic);
 }
-.fw-bolder{
-  font-family:Montserrat-SemiBoldItalic;
+.fw-bolder {
+  font-family: Montserrat-SemiBoldItalic;
 }
-
-
 
 /* fade  */
 .fadeTop {
   display: flex;
-  opacity: 0; 
+  opacity: 0;
   transform: translate(0, 20vh);
   transition: all 1s;
 }
@@ -434,33 +449,29 @@ h5{
   opacity: 1;
   transform: translate(0, 0);
 }
-  
+
 /* fin fade */
 
-
-
 /* formulario */
-.form-bancos{
+.form-bancos {
   color: darkorange;
   width: 600px;
   height: 390px;
   margin: 50px;
   margin-left: 160px;
   padding: 20px;
-  border-style:solid;
+  border-style: solid;
   border-width: 2px;
   border-color: darkgreen;
   background-color: rgba(8, 8, 8, 0.522);
 }
 
-
 /* imagen bancos */
-.bancos{
-  background-color:transparent;
+.bancos {
+  background-color: transparent;
   align-items: flex-start;
-
 }
-.img-bancos{
+.img-bancos {
   width: 600px;
   margin: 50px;
   padding: 20px;
@@ -470,20 +481,15 @@ h5{
 }
 
 /* boton */
-.button-send{
+.button-send {
   margin-top: 10px;
   padding: 50px;
 }
-#button-send{
+#button-send {
   margin-top: 10px;
   background-color: darkgreen;
   border-color: darkorange;
-  
 }
 
-
-
 @media (max-width: 576px) {
-
-
-  }
+}
