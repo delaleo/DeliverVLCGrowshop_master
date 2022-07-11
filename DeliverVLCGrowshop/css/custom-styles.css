@@ -367,7 +367,9 @@ body {
   height: 1.5rem;
   max-width: 100%;
   background-color: forestgreen;
+  background-position: 100%;
   justify-content: space-between;
+  margin-right: 2rem;
   list-style: none;
 }
 
@@ -412,13 +414,10 @@ h5 {
   color: rgb(6, 6, 6);
   font-size: 4rem;
   font-weight: bolder;
-
-  -webkit-text-stroke: 0.5px rgb(45, 180, 8);
 }
 
 #lead-menor {
   font-size: larger;
-  -webkit-text-stroke: 0.2px rgb(255, 115, 0);
 }
 
 /* cambio de logo */
